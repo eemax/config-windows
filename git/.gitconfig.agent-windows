@@ -1,0 +1,23 @@
+[init]
+	defaultBranch = main
+
+[core]
+	longpaths = true
+	filemode = false
+
+[pull]
+	ff = only
+
+[credential "https://github.com"]
+	helper = !gh auth git-credential
+
+[interactive]
+	diffFilter = delta --color-only
+
+[delta]
+	navigate = true
+	side-by-side = false
+	line-numbers = true
+
+[merge]
+	conflictstyle = zdiff3

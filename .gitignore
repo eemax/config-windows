@@ -1,0 +1,8 @@
+work/
+*.log
+*.tmp
+*.bak
+.env
+.env.*
+!.env.example
+
