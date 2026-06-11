@@ -88,10 +88,12 @@ gh auth status
 
 ## Microsoft Work Apps
 
-Teams work/school is installed through the official winget package:
+Teams work/school and the modern OneDrive sync client are installed through
+official winget packages:
 
 ```powershell
 winget install --id Microsoft.Teams --exact --accept-package-agreements --accept-source-agreements
+winget install --id Microsoft.OneDrive --exact --accept-package-agreements --accept-source-agreements
 ```
 
 Microsoft 365 Apps are optional because many managed Windows machines already
@@ -116,9 +118,9 @@ apps we do not want in the agent workstation baseline:
 - Teams bundled via Office
 
 Outlook is expected to be the Windows-shipped Outlook app unless there is a
-specific reason to install classic Outlook. Teams is managed separately with
-`Microsoft.Teams`, which keeps the Teams work/school client explicit and
-repeatable.
+specific reason to install classic Outlook. OneDrive is managed separately with
+`Microsoft.OneDrive`, and Teams is managed separately with `Microsoft.Teams`.
+This keeps the work/school sync and chat clients explicit and repeatable.
 
 Run:
 

@@ -2,6 +2,7 @@
 param(
     [switch]$InstallOfficeCore,
     [switch]$SkipTeams,
+    [switch]$SkipOneDrive,
     [ValidateSet("O365BusinessRetail", "O365ProPlusRetail")]
     [string]$OfficeProductId = "O365BusinessRetail"
 )
@@ -28,6 +29,10 @@ function Invoke-WingetInstall {
 
 if (-not $SkipTeams) {
     Invoke-WingetInstall -Id "Microsoft.Teams"
+}
+
+if (-not $SkipOneDrive) {
+    Invoke-WingetInstall -Id "Microsoft.OneDrive"
 }
 
 if ($InstallOfficeCore) {

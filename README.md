@@ -45,6 +45,7 @@ Primary tools:
 Optional work apps:
 
 - Microsoft Teams work/school through winget
+- Microsoft OneDrive sync client through winget
 - Microsoft 365 Apps through the Office Deployment Tool, configured as core
   apps only: Word, Excel, and PowerPoint
 

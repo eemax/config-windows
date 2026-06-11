@@ -101,6 +101,7 @@ C:\Users\maxim\scoop\persist\rustup\.cargo\bin
 Installed:
 
 - Microsoft Teams work/school: `Microsoft.Teams` 26134.1702.4747.7366
+- Microsoft OneDrive sync client: `Microsoft.OneDrive` 26.088.0510.0004
 - Word
 - Excel
 - PowerPoint
@@ -110,4 +111,3 @@ Installed:
 
 Future Office installs from this repo exclude Outlook classic. The intended
 repeatable Office set is Word, Excel, and PowerPoint only.
-
