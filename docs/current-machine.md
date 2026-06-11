@@ -70,6 +70,7 @@ Also configured:
 User environment:
 
 ```text
+CENTRIC_API_HOME=C:\Users\maxim\dev\runtime\centric-api
 CARGO_HOME=C:\Users\maxim\scoop\persist\rustup\.cargo
 RUSTUP_HOME=C:\Users\maxim\.rustup
 ```

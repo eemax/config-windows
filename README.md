@@ -64,6 +64,18 @@ Then open a fresh terminal and verify:
 .\scripts\verify-toolchain.ps1
 ```
 
+Apply standard persistent agent environment variables:
+
+```powershell
+.\scripts\set-agent-env.ps1
+```
+
+Add a one-off persistent user environment variable:
+
+```powershell
+.\scripts\add-user-env.ps1 -UpdateCurrentProcess
+```
+
 Install repeatable Microsoft work apps:
 
 ```powershell
